@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
-mongoose.connect("mongodb://172.31.0.2:27017/restorant", {
+///CAMBIAR LA IP DE MONGO
+mongoose.connect("mongodb://172.19.0.2:27017/restorant", {
   useNewUrlParser: true,
 });
 var db = mongoose.connection;
